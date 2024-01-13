@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="../indexcss/airbnbstyle.css">
+</head>
+
+<body>
+
+    <nav id="navBar" class="navbar-white">
+        <a href="./airbnbindex.html">
+            <img src="../images/logo-red.png" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="./house.html" class="active">Popular Places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="./listing.html">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="uil uil-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco, California, United States</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="../images/house-1.png"></div>
+            <div><img src="../images/house-2.png"></div>
+            <div><img src="../images/house-3.png"></div>
+            <div><img src="../images/house-4.png"></div>
+            <div><img src="../images/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by Brandon</h2>
+            <p>2 Guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 Bathroom</p>
+            <h4>$ 100 / day </h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-in</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div>
+                <label>Check-out</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div class="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="uil uil-home"></i>Entire Home
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="uil uil-paint-tool"></i>Enhanced Clean
+                <span>This host has committed to staybnb's cleaning process.</span>
+            </li>
+            <li><i class="uil uil-map-marker-alt"></i>Great Location
+                <span>90% of recent guests gave the location a 5 star rating.</span>
+            </li>
+            <li><i class="uil uil-heart"></i>Great Check-in Experience
+                <span>100% of recent guests gave the check-in process a 5 star rating.</span>
+            </li>
+        </ul>
+
+        <hr class="line">
+
+        <p class="home-desc">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12617.266842301287!2d-122.45793519119299!3d37.75917141372162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7df848f03c0d%3A0xcda95817c2a4021a!2sMount%20Sutro%20Open%20Space%20Reserve!5e0!3m2!1str!2str!4v1701003462972!5m2!1str!2str"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <b>San Francisco, California, United States</b>
+                <p>It's like a home away from home.</p>
+        </div>
+
+        <hr class="line">
+
+        <div class="host">
+            <img src="../images/host.png">
+            <div>
+                <h2>Hosted by Brandon</h2>
+                <p><span>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                    <i class="uil uil-star"></i>
+                </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response time: 60 min</p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
+        
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="uil uil-facebook"></i></a>
+            <a href="https://youtube.com/"><i class="uil uil-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="uil uil-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="uil uil-linkedin"></i></a>
+            <a href="https://instagram.com/"><i class="uil uil-instagram"></i></a>
+            <hr>
+            <p>Copyright @ 2024, Star Technology Company.</p>
+        </div>
+    </div>
+
+    <script>        
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+
+</body>
+
+</html>

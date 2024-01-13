@@ -1,0 +1,21 @@
+.value-photos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.value-photos .value-photo {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.value-photos .value-photo img {
+    width: 500px;
+    height: 275px;
+}
+
+.value-photos .value-photo p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
